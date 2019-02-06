@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CortanaClient", "..\CortanaClient\CortanaClient.csproj", "{7BC76E97-C9D1-4520-97A5-475BC6153AFC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{7E9A7F8A-87D7-4A97-94AE-9BC162FBF4B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaptiveCards", "..\..\adaptivecards\source\dotnet\Library\AdaptiveCards\AdaptiveCards.csproj", "{7E0CA9EE-2C0E-4300-BBAD-844392B144AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdaptiveCards.Rendering.Wpf", "..\..\adaptivecards\source\dotnet\Library\AdaptiveCards.Rendering.Wpf\AdaptiveCards.Rendering.Wpf.csproj", "{CBD09EB1-FD41-4DA5-94E6-B658860C1FF2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JsonTransformLanguage", "..\..\adaptivecards\source\dotnet\Library\JsonTransformLanguage\JsonTransformLanguage.csproj", "{43A451E7-7289-4FA2-BD55-6A6B6B73002C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebSubClientLibrary", "..\..\adaptivecards\source\WebSubForClients\source\client\WebSubClientLibrary\WebSubClientLibrary\WebSubClientLibrary.csproj", "{6C0D588F-042F-44AA-9C23-1D74E56522B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BC76E97-C9D1-4520-97A5-475BC6153AFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BC76E97-C9D1-4520-97A5-475BC6153AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BC76E97-C9D1-4520-97A5-475BC6153AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BC76E97-C9D1-4520-97A5-475BC6153AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E0CA9EE-2C0E-4300-BBAD-844392B144AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E0CA9EE-2C0E-4300-BBAD-844392B144AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E0CA9EE-2C0E-4300-BBAD-844392B144AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E0CA9EE-2C0E-4300-BBAD-844392B144AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBD09EB1-FD41-4DA5-94E6-B658860C1FF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBD09EB1-FD41-4DA5-94E6-B658860C1FF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBD09EB1-FD41-4DA5-94E6-B658860C1FF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBD09EB1-FD41-4DA5-94E6-B658860C1FF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A451E7-7289-4FA2-BD55-6A6B6B73002C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A451E7-7289-4FA2-BD55-6A6B6B73002C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A451E7-7289-4FA2-BD55-6A6B6B73002C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A451E7-7289-4FA2-BD55-6A6B6B73002C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0D588F-042F-44AA-9C23-1D74E56522B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0D588F-042F-44AA-9C23-1D74E56522B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0D588F-042F-44AA-9C23-1D74E56522B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0D588F-042F-44AA-9C23-1D74E56522B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7E0CA9EE-2C0E-4300-BBAD-844392B144AF} = {7E9A7F8A-87D7-4A97-94AE-9BC162FBF4B0}
+		{CBD09EB1-FD41-4DA5-94E6-B658860C1FF2} = {7E9A7F8A-87D7-4A97-94AE-9BC162FBF4B0}
+		{43A451E7-7289-4FA2-BD55-6A6B6B73002C} = {7E9A7F8A-87D7-4A97-94AE-9BC162FBF4B0}
+		{6C0D588F-042F-44AA-9C23-1D74E56522B5} = {7E9A7F8A-87D7-4A97-94AE-9BC162FBF4B0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EB07A58D-711D-4F6A-9385-5DC78B4D74C8}
+	EndGlobalSection
+EndGlobal
