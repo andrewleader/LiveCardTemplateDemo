@@ -1,0 +1,3 @@
+[submodule "source/adaptivecards"]
+	path = source/adaptivecards
+	url = https://github.com/microsoft/adaptivecards
