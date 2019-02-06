@@ -37,13 +37,13 @@ namespace LiveCardTemplateWebsite.Controllers.Api
             }
         }
 
-        private static string GetSelfUrl()
+        public static string GetSelfUrl()
         {
             string baseUrl = HttpContext.Current.Request.Url.Scheme + "://" + HttpContext.Current.Request.Url.Authority;
             return baseUrl + "/api/card";
         }
 
-        private static string GetSubscriptionUrl()
+        public static string GetSubscriptionUrl()
         {
             return WebSubHubRootUrl + "/api/subscriptions?id=" + System.Web.HttpUtility.UrlEncode(GetSelfUrl());
         }

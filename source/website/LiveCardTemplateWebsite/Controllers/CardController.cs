@@ -49,7 +49,9 @@ namespace LiveCardTemplateWebsite.Controllers
         {
             return View(new CardModel()
             {
-                CardJson = Api.CardController.CardJson
+                CardJson = Api.CardController.CardJson,
+                GetApi = Api.CardController.GetSelfUrl(),
+                SubscribeUrl = Api.CardController.GetSubscriptionUrl()
             });
         }
 

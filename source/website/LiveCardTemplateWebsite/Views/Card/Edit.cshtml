@@ -1,10 +1,16 @@
 ﻿@model LiveCardTemplateWebsite.Models.CardModel
 
 @{
-    ViewBag.Title = "View";
+    ViewBag.Title = "Card template";
 }
 
-<h2>View</h2>
+<h2>Card template</h2>
+
+<h3>GET API</h3>
+<code>@Model.GetApi</code>
+
+<h3>SUBSCRIBE URL</h3>
+<code>@Model.SubscribeUrl</code>
 
 
 @using (Html.BeginForm())
